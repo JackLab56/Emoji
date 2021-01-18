@@ -13,31 +13,20 @@ class EmojiViewController: UIViewController {
     
     @IBOutlet weak var emojiLbl: UILabel!
     
-    var emoji = "No Emoji"
+    @IBOutlet weak var CategoryLbl: UILabel!
+    @IBOutlet weak var birthYearLbl: UILabel!
+    var emoji = Emoji()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        emojiLbl.text = emoji
+        emojiLbl.text = emoji.stringEmoji
+        defLbl.text = emoji.definition
+        CategoryLbl.text = "Category: \(emoji.category)"
+        birthYearLbl.text = "BirthYear: \(emoji.birthYear)"
         
-         
-        switch emoji {
-        case "😇":
-            defLbl.text = "The saint is among us"
-        case "🤩":
-            defLbl.text = "This is a mega star"
-        case "😡":
-            defLbl.text = "The devil made me do it"
-        case "👩‍🦳":
-            defLbl.text = "Barby"
-        case "🦈":
-            defLbl.text = "Shark in the water"
-        case "⚓️":
-            defLbl.text = "Anchor aweigh"
-        default:
-            defLbl.text = "No Emoj"
-        }
+
     }
     
 
