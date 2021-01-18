@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F421893625B5E58D00BB5CF8 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F421893525B5E58D00BB5CF8 /* EmojiViewController.swift */; };
 		F476442825B493850030CCFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F476442725B493850030CCFD /* AppDelegate.swift */; };
 		F476442A25B493850030CCFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F476442925B493850030CCFD /* SceneDelegate.swift */; };
 		F476442C25B493850030CCFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F476442B25B493850030CCFD /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F421893525B5E58D00BB5CF8 /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
 		F476442425B493850030CCFD /* Emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F476442725B493850030CCFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F476442925B493850030CCFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F476442725B493850030CCFD /* AppDelegate.swift */,
 				F476442925B493850030CCFD /* SceneDelegate.swift */,
 				F476442B25B493850030CCFD /* ViewController.swift */,
+				F421893525B5E58D00BB5CF8 /* EmojiViewController.swift */,
 				F476442D25B493850030CCFD /* Main.storyboard */,
 				F476443025B493860030CCFD /* Assets.xcassets */,
 				F476443225B493860030CCFD /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				F476442C25B493850030CCFD /* ViewController.swift in Sources */,
 				F476442825B493850030CCFD /* AppDelegate.swift in Sources */,
 				F476442A25B493850030CCFD /* SceneDelegate.swift in Sources */,
+				F421893625B5E58D00BB5CF8 /* EmojiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,7 +18,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "moveSeque", sender: emojis[indexPath.row])
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let emojiVC = segue.destination as! EmojiViewController
+        emojiVC.emoji = sender as! String
+    }
     @IBOutlet weak var tblEmoji: UITableView!
     
     var emojis = ["😇","🤩","😡","👩‍🦳","🦈","⚓️"]
